@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"  rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+        theme: {
+          fontFamily: {
+            sans: ['ui-sans-serif', 'system-ui'],
+            serif: ['ui-serif', 'Georgia'],
+            mono: ["Playfair Display", "serif"],
+          }
+        }
+  }
+      </script>
+    <title>Document</title>
+</head>
+<div class="flex space-x-4 font-bold">
+    <li><a href="index2.html"><p>Home Page</p></a></li>
+  <li><a href="index3.html"><p>About</p></a></li>
+  <li><a href="index4.html"><p>Services</p></a></li>
+  <li><a href="index5.html"><p>Contact</p></a></li>
+  <li><a href="index6.html"><p>Booking</p></a></li>
+  </div>
+<body>
+  <div class="">
+    <div class="items-center text-center border-[#FDDC5C] border-4 bg-pink-100 w-[350px font-bold]">
+      <form class="items-center" action="">
+        <div class="mt-10">
+          <label for="">Name</label>
+          <input class="border-4 border-pink-200 pt-2" type="text">
+        </div>
+        <div>
+          <label for="">Email</label>
+          <input class="border-4 border-pink-200 pt-2" type="text" placeholder="Email Address">
+        </div>
+        <div>
+          <label for="">Phone Number</label>
+          <input class="border-4 border-pink-200 pt-2" type="email">
+        </div>
+        <div>
+          <label for="">Time</label>
+          <input class="boder-4 border-pink-200 pt-2" type="time" min="" max="">
+        </div>
+        <div>
+          <label for="">Stylist</label>
+          <br>
+          <label for="">Stylist</label>
+          <br>
+          <label for="">Stylist Blessing</label>
+          <input type="checkbox">
+          <label for="">Stylist Mimi</label>
+          <input type="checkbox">
+          <label for="">Stylist John</label>
+          <input type="checkbox">
+          <label for="">Stylist Grey</label>
+          <input type="checkbox">
+        </div>
+        <div>
+          <label for="">Services Needed</label>
+          <br>
+          <select class="rounded-full" name="" id="">
+            <option value="">Fixing</option>
+            <option value="">Makeup</option>
+            <option value="">Brading</option>
+            <option value="">Revamping</option>
+            <option value="">Nails</option>
+          </select>
+        </div>
+        <div>
+          <label for="">Day and Date</label>
+          <br>
+          <input type="date">
+        </div>
+        <div>
+          <label for="">Upload Image of stlye needed</label>
+          <input type="file">
+        </div>
+        <button class="border-4 border-pink-200 pt-2 px-2">Submit</button>
+      </form>
+    </div> 
+  </div>
+  <div class="bg-[#4b5563] h-[35vh] ">
+    <div class="text-center text-white">
+      <ul class="pt-4">
+        <li>About.</li>
+        <li>Contact.</li>
+        <li>Terms of Use.</li>
+        <li>Privacy Policy.</li>
+      </ul>
+      <div>
+        <p>&copy; Your Website 2024 All Right Reserved</p>
+        <div class="flex mx-auto w-[10%]">
+          <button><span><i class="bx bxl-phone-512.webp"></i><img class="h-[60px]" src="/image/phone-512.webp" alt=""></span></button>
+          <button><span><i class="bx bxl-instagram"></i><img class="h-[60px]" src="/image/instatgramicon.png" alt=""></span></button>
+          <button><span><i class="bx bxl-facebook-circle"></i><img class="h-[50px]" src="/image/facebook icon.png" alt=""></span></button> 
+    </div>
+</body>
+</html>
